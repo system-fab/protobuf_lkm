@@ -1,0 +1,3 @@
+[submodule "libs/pbtools"]
+	path = libs/pbtools
+	url = https://github.com/eerimoq/pbtools.git

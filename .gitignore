@@ -1,0 +1,23 @@
+# MacOS
+.DS_Store
+
+# IDEs
+.vscode
+.idea
+.fleet
+.zed
+
+# python
+venv
+
+# tmp
+.tmp
+tmp
+
+# files from source repo
+examples/common/protobuf_lkm.c
+examples/common/protobuf_lkm.h
+
+# test
+test_gen_nf
+test_gen_udp

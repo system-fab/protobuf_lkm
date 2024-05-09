@@ -1,0 +1,8 @@
+__pycache__
+
+# files copied from source
+parser.py
+errors.py
+lkm_common/c_source.py
+lkm_common/generate_pbtools_c.py
+lkm_common/generate_pbtools_h.py

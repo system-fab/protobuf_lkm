@@ -1,0 +1,8 @@
+syntax = "proto3";
+package hello_world;
+
+option go_package = "./;gen";
+
+message Foo {
+    int32 bar = 1;
+}
