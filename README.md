@@ -59,11 +59,11 @@ message:
 > There is no use of dynamic memory allocation, se [here](https://pbtools.readthedocs.io/en/latest/#memory-management) for more details
 
 ## How to "build"
-Since this library is based on [pbtools](https://github.com/eerimoq/pbtools), this library is imported as a git submodule, to get it run:
+Since this library is based on [pbtools](https://github.com/eerimoq/pbtools), it is imported as a git submodule, and it is used to compose the python module:
 ```shell
 git submodule update --init --recursive
 ```
-Then run this to setup the library
+Then run this to build the python module:
 ```shell
 make protobuf_lkm
 ```
@@ -303,7 +303,7 @@ This way the FPU does not have to be enabled if the float values are not process
 > This part is highly architecture dependant see [here](https://stackoverflow.com/questions/1556142/sse-register-return-with-sse-disabled) for more details
 
 ## Limitations
-The project is based (and is a fork of) [eerimoq/pbtools][pbtools] and shares its limitations:
+The project is based [eerimoq/pbtools][pbtools] and shares its limitations:
 
 - Options, services (gRPC) and reserved fields are ignored.
 - Public imports are not implemented.
